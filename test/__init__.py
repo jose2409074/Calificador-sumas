@@ -1,1 +1,0 @@
-echo $null > test/__init__.py
