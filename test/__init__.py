@@ -1,1 +1,1 @@
-echo. > test/__init__.py
+echo $null > test/__init__.py
