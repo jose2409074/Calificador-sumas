@@ -1,0 +1,1 @@
+echo. > test/__init__.py
