@@ -21,7 +21,7 @@ jobs:
     #Etapa de pruebas
     - name: Etapa 2 - test
       run: |
-        python -m pytest test/test_logic.py
+        PYTHONPATH=. python -m pytest test/test_logic.py -v
     
     # Etapa calidad
     - name: Etapa 3 - Calidad
